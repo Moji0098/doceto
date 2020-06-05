@@ -1,0 +1,818 @@
+{
+  "specialities": [
+    {
+      "id": 2,
+      "name": "آسم و آلرژی",
+      "type": 0,
+      "slug": "allergist"
+    },
+    {
+      "id": 3,
+      "name": "ایمونولوژی و آلرژی",
+      "type": 1,
+      "slug": "o1",
+      "parent_id": 2
+    },
+    {
+      "id": 6,
+      "name": "اپیدمیولوژی",
+      "type": 0,
+      "slug": "epidemiologist"
+    },
+    {
+      "id": 7,
+      "name": "ارتوپدی",
+      "type": 0,
+      "slug": "orthopedist"
+    },
+    {
+      "id": 9,
+      "name": "جراحی دست و اعصاب محیطی",
+      "type": 1,
+      "slug": "n2",
+      "parent_id": 7
+    },
+    {
+      "id": 10,
+      "name": "جراحی زانو",
+      "type": 1,
+      "slug": "n3",
+      "parent_id": 7
+    },
+    {
+      "id": 11,
+      "name": "تروماتولوژی",
+      "type": 0,
+      "slug": "traumatologist"
+    },
+    {
+      "id": 12,
+      "name": "اعصاب و روان (روانپزشکی)",
+      "type": 0,
+      "slug": "psychiatrist"
+    },
+    {
+      "id": 13,
+      "name": " روانشناسی",
+      "type": 0,
+      "slug": "psychologist"
+    },
+    {
+      "id": 14,
+      "name": "پوست، مو و زیبایی",
+      "type": 0,
+      "slug": "cosmetic-dermatologist"
+    },
+    {
+      "id": 16,
+      "name": "جراح چشم",
+      "type": 1,
+      "slug": "b1",
+      "parent_id": 15
+    },
+    {
+      "id": 17,
+      "name": "انحراف و چشم پزشکی کودکان",
+      "type": 1,
+      "slug": "b2",
+      "parent_id": 15
+    },
+    {
+      "id": 18,
+      "name": "جراحی پلاستیک چشم و انحراف",
+      "type": 1,
+      "slug": "b3",
+      "parent_id": 15
+    },
+    {
+      "id": 19,
+      "name": "شبکیه",
+      "type": 1,
+      "slug": "b4",
+      "parent_id": 15
+    },
+    {
+      "id": 20,
+      "name": "قرنیه",
+      "type": 1,
+      "slug": "b5",
+      "parent_id": 15
+    },
+    {
+      "id": 21,
+      "name": "دندانپزشکی",
+      "type": 0,
+      "slug": "dentist"
+    },
+    {
+      "id": 23,
+      "name": "ارتودنسی",
+      "type": 1,
+      "slug": "a2",
+      "parent_id": 21
+    },
+    {
+      "id": 24,
+      "name": "جراحی دهان، فک و صورت",
+      "type": 1,
+      "slug": "a3",
+      "parent_id": 21
+    },
+    {
+      "id": 26,
+      "name": "غدد، رشد و متابولیسم",
+      "type": 1,
+      "slug": "l2",
+      "parent_id": 25
+    },
+    {
+      "id": 27,
+      "name": "هماتولوژی و انکولوژی",
+      "type": 0,
+      "slug": "hematologist-oncologist"
+    },
+    {
+      "id": 28,
+      "name": "نفرولوژی",
+      "type": 0,
+      "slug": "nephrologist"
+    },
+    {
+      "id": 29,
+      "name": "قلب و عروق",
+      "type": 0,
+      "slug": "cardiologist"
+    },
+    {
+      "id": 30,
+      "name": "جراحی قلب و عروق",
+      "type": 1,
+      "slug": "cardiac-surgeon",
+      "parent_id": 29
+    },
+    {
+      "id": 31,
+      "name": "قلب و عروق",
+      "type": 1,
+      "slug": "i5",
+      "parent_id": 29
+    },
+    {
+      "id": 32,
+      "name": "الکتروفیزیولوژی",
+      "type": 1,
+      "slug": "h1",
+      "parent_id": 29
+    },
+    {
+      "id": 34,
+      "name": "اینترنشنال کاردیولوژی",
+      "type": 1,
+      "slug": "h3",
+      "parent_id": 29
+    },
+    {
+      "id": 35,
+      "name": "بیماریهای عفونی و گرمسیری",
+      "type": 0,
+      "slug": "infectiologist"
+    },
+    {
+      "id": 36,
+      "name": "کودکان و نوزادان",
+      "type": 0,
+      "slug": "pediatric"
+    },
+    {
+      "id": 37,
+      "name": "جراحی نوزادان و کودکان",
+      "type": 1,
+      "slug": "c2",
+      "parent_id": 36
+    },
+    {
+      "id": 38,
+      "name": "عفونی کودکان",
+      "type": 1,
+      "slug": "c3",
+      "parent_id": 36
+    },
+    {
+      "id": 39,
+      "name": "قلب کودکان",
+      "type": 1,
+      "slug": "c4",
+      "parent_id": 36
+    },
+    {
+      "id": 40,
+      "name": "گوارش و کبد کودکان",
+      "type": 1,
+      "slug": "c5",
+      "parent_id": 36
+    },
+    {
+      "id": 41,
+      "name": "نوزادان",
+      "type": 1,
+      "slug": "c6",
+      "parent_id": 36
+    },
+    {
+      "id": 43,
+      "name": "مغز و اعصاب (نورولوژی)",
+      "type": 0,
+      "slug": "neurologist"
+    },
+    {
+      "id": 45,
+      "name": "بیهوشی",
+      "type": 0,
+      "slug": "anesthesiologist"
+    },
+    {
+      "id": 46,
+      "name": "جراحی کلیه،مجاری ادراری و تناسلی (اورولوژی)",
+      "type": 0,
+      "slug": "urologist"
+    },
+    {
+      "id": 47,
+      "name": "جراحی کلیه و مجاری ادراری",
+      "type": 1,
+      "slug": "j1",
+      "parent_id": 46
+    },
+    {
+      "id": 48,
+      "name": "رادیولوژی",
+      "type": 0,
+      "slug": "radiologist"
+    },
+    {
+      "id": 49,
+      "name": "زنان و زایمان و نازایی",
+      "type": 0,
+      "slug": "obstetrician-gynecologist"
+    },
+    {
+      "id": 50,
+      "name": "نازایی",
+      "type": 1,
+      "slug": "d1",
+      "parent_id": 49
+    },
+    {
+      "id": 51,
+      "name": "آنکولوژی و سرطان زنان",
+      "type": 1,
+      "slug": "d2",
+      "parent_id": 49
+    },
+    {
+      "id": 52,
+      "name": "جراحی عمومی",
+      "type": 0,
+      "slug": "general-surgeon"
+    },
+    {
+      "id": 53,
+      "name": "پیوند کلیه و کبد",
+      "type": 1,
+      "slug": "f1",
+      "parent_id": 52
+    },
+    {
+      "id": 54,
+      "name": "جراحی سرطان و گوارش",
+      "type": 1,
+      "slug": "f3",
+      "parent_id": 52
+    },
+    {
+      "id": 55,
+      "name": "جراحی کولون، رکتوم و بیماری های مقعد",
+      "type": 1,
+      "slug": "f4",
+      "parent_id": 52
+    },
+    {
+      "id": 56,
+      "name": "جراحی نوزادان و کودکان",
+      "type": 1,
+      "slug": "f5",
+      "parent_id": 52
+    },
+    {
+      "id": 57,
+      "name": "جراحی گوارش تحتانی (کولورکتال)",
+      "type": 1,
+      "slug": "f6",
+      "parent_id": 52
+    },
+    {
+      "id": 58,
+      "name": "جراحی دست",
+      "type": 1,
+      "slug": "f7",
+      "parent_id": 52
+    },
+    {
+      "id": 59,
+      "name": "تغییر جنسیت",
+      "type": 1,
+      "slug": "gender-confirmation-surgeries",
+      "parent_id": 52
+    },
+    {
+      "id": 60,
+      "name": "پرتودرمانی (رادیوتراپی)",
+      "type": 0,
+      "slug": "radiotherapist"
+    },
+    {
+      "id": 61,
+      "name": "پزشک اجتماعی",
+      "type": 0,
+      "slug": "social-medicine"
+    },
+    {
+      "id": 62,
+      "name": "پزشک خانواده",
+      "type": 0,
+      "slug": "family-physician"
+    },
+    {
+      "id": 63,
+      "name": "طب فیزیکی و توانبخشی",
+      "type": 0,
+      "slug": "physiatrist"
+    },
+    {
+      "id": 64,
+      "name": "پزشک ورزشی",
+      "type": 0,
+      "slug": "sports-medicine"
+    },
+    {
+      "id": 65,
+      "name": "تغذیه",
+      "type": 0,
+      "slug": "dietitian"
+    },
+    {
+      "id": 66,
+      "name": "ژنتیک انسانی",
+      "type": 0,
+      "slug": "human-genetics"
+    },
+    {
+      "id": 67,
+      "name": "ژنتیک پزشکی",
+      "type": 0,
+      "slug": "medical-genetics"
+    },
+    {
+      "id": 68,
+      "name": "طب اورژانس",
+      "type": 0,
+      "slug": "emergency-physician"
+    },
+    {
+      "id": 69,
+      "name": "طب کار",
+      "type": 0,
+      "slug": "occupational-physician"
+    },
+    {
+      "id": 70,
+      "name": "فیزیولوژی",
+      "type": 0,
+      "slug": "clinical-physiology"
+    },
+    {
+      "id": 71,
+      "name": "قارچ شناسی",
+      "type": 0,
+      "slug": "mycologist"
+    },
+    {
+      "id": 72,
+      "name": "مدیریت امور بهداشتی",
+      "type": 0,
+      "slug": "healthcare-management"
+    },
+    {
+      "id": 73,
+      "name": "میکروبیولوژی",
+      "type": 0,
+      "slug": "microbiologist"
+    },
+    {
+      "id": 74,
+      "name": "ویروس شناسی",
+      "type": 0,
+      "slug": "virologist"
+    },
+    {
+      "id": 75,
+      "name": "عمومی",
+      "type": 0,
+      "slug": "primary-care-physician"
+    },
+    {
+      "id": 76,
+      "name": "گوش حلق و بینی",
+      "type": 0,
+      "slug": "otorhinolaryngologist"
+    },
+    {
+      "id": 77,
+      "name": "جراحی بینی و سینوس",
+      "type": 1,
+      "slug": "e1",
+      "parent_id": 76
+    },
+    {
+      "id": 78,
+      "name": "جراحی فک و صورت",
+      "type": 0,
+      "slug": "maxillofacial-surgeon"
+    },
+    {
+      "id": 79,
+      "name": "جراحی پلاستیک زیبایی و ترمیمی",
+      "type": 0,
+      "slug": "plastic-and-reconstructive-surgury"
+    },
+    {
+      "id": 80,
+      "name": "جراحی بینی و سینوس",
+      "type": 1,
+      "slug": "g1",
+      "parent_id": 79
+    },
+    {
+      "id": 81,
+      "name": "جراحی پلاستیک، ترمیمی و سوختگی",
+      "type": 1,
+      "slug": "g2",
+      "parent_id": 79
+    },
+    {
+      "id": 82,
+      "name": "فیزیوتراپی",
+      "type": 0,
+      "slug": "physiotherapy"
+    },
+    {
+      "id": 83,
+      "name": "داخلی",
+      "type": 0,
+      "slug": "internal"
+    },
+    {
+      "id": 84,
+      "name": "روماتولوژی",
+      "type": 1,
+      "slug": "rheumatologist",
+      "parent_id": 83
+    },
+    {
+      "id": 85,
+      "name": "ریه",
+      "type": 1,
+      "slug": "i1",
+      "parent_id": 83
+    },
+    {
+      "id": 87,
+      "name": "کلیه و مجاری ادراری (نفرولوژی) ",
+      "type": 1,
+      "slug": "i3",
+      "parent_id": 83
+    },
+    {
+      "id": 88,
+      "name": "گوارش و کبد",
+      "type": 1,
+      "slug": "gastroenterologist",
+      "parent_id": 83
+    },
+    {
+      "id": 89,
+      "name": "خون و سرءان شناسی",
+      "type": 1,
+      "slug": "i6",
+      "parent_id": 83
+    },
+    {
+      "id": 93,
+      "name": "جراحی داخلی",
+      "type": 0,
+      "slug": "jarahi-dakheli"
+    },
+    {
+      "id": 94,
+      "name": "کایروپراکتیک",
+      "type": 0,
+      "slug": "chiropractic"
+    },
+    {
+      "id": 95,
+      "name": "طب سوزنی",
+      "type": 0,
+      "slug": "zhenjiu"
+    },
+    {
+      "id": 96,
+      "name": "هومیوپاتی",
+      "type": 0,
+      "slug": "homeopathy"
+    },
+    {
+      "id": 97,
+      "name": "کلیه و فشار خون",
+      "type": 0,
+      "slug": "kolie-fesharkhoon"
+    },
+    {
+      "id": 98,
+      "name": "آزمایشگاه",
+      "type": 0,
+      "slug": "laboratory"
+    },
+    {
+      "id": 99,
+      "name": "تصویر برداری پزشکی",
+      "type": 0,
+      "slug": "medical-imaging"
+    },
+    {
+      "id": 100,
+      "name": "بینائی سنجی",
+      "type": 0,
+      "slug": "optometry"
+    },
+    {
+      "id": 101,
+      "name": "انکولوژی",
+      "type": 0,
+      "slug": "oncologist"
+    },
+    {
+      "id": 103,
+      "name": "مامایی",
+      "type": 0,
+      "slug": "midwifery"
+    },
+    {
+      "id": 105,
+      "name": "شنوایی سنجی",
+      "type": 0,
+      "slug": "Audiometry"
+    },
+    {
+      "id": 106,
+      "name": "ایمونولوژی بالینی",
+      "type": 0,
+      "slug": "Immunology"
+    },
+    {
+      "id": 107,
+      "name": "دیابت",
+      "type": 0,
+      "slug": "Diabetes"
+    },
+    {
+      "id": 108,
+      "name": "بیوشیمی بالینی",
+      "type": 0,
+      "slug": "clinical-biochemistry"
+    },
+    {
+      "id": 1,
+      "name": "آسیب شناسی (پاتولوژی)",
+      "type": 0,
+      "slug": "pathologist"
+    },
+    {
+      "id": 5,
+      "name": "آناتومی",
+      "type": 0,
+      "slug": "anatomical-pathologist"
+    },
+    {
+      "id": 104,
+      "name": "گفتاردرمانی",
+      "type": 0,
+      "slug": "speech-therapist"
+    },
+    {
+      "id": 112,
+      "name": "اورژانس اطفال",
+      "type": 1,
+      "slug": "emergency-pediatrician",
+      "parent_id": 36
+    },
+    {
+      "id": 44,
+      "name": "جراحی مغز و اعصاب",
+      "type": 0,
+      "slug": "neurosurgeon"
+    },
+    {
+      "id": 4,
+      "name": "آسم و آلرژی",
+      "type": 1,
+      "slug": "allergist-sub",
+      "parent_id": 2
+    },
+    {
+      "id": 92,
+      "name": "جراحی پلاستیک، ترمیمی و سوختگی",
+      "type": 1,
+      "slug": "f2",
+      "parent_id": 79
+    },
+    {
+      "id": 91,
+      "name": "جراحی پلاستیک صورت",
+      "type": 1,
+      "slug": "e2",
+      "parent_id": 76
+    },
+    {
+      "id": 15,
+      "name": "چشم پزشکی",
+      "type": 0,
+      "slug": "ophthalmology"
+    },
+    {
+      "id": 115,
+      "name": "جراحی فک و صورت و ایمپلنت",
+      "type": 2,
+      "slug": "maxillofacial-surgery-and-implant-surgery",
+      "parent_id": 21
+    },
+    {
+      "id": 116,
+      "name": "گوش",
+      "type": 2,
+      "slug": "ear-fellowship",
+      "parent_id": 76
+    },
+    {
+      "id": 117,
+      "name": "کلیه کودکان و نوجوانان",
+      "type": 1,
+      "slug": "k1",
+      "parent_id": 36
+    },
+    {
+      "id": 118,
+      "name": "طب سنتی ایرانی",
+      "type": 0,
+      "slug": "iranian-traditional-medicine"
+    },
+    {
+      "id": 122,
+      "name": "غدد و متابولیسم",
+      "type": 1,
+      "slug": "endocrinology-and-metabolism",
+      "parent_id": 83
+    },
+    {
+      "id": 123,
+      "name": "غدد و متابولیسم کودکان",
+      "type": 1,
+      "slug": "pediatric-endocrinology-and-metabolism",
+      "parent_id": 36
+    },
+    {
+      "id": 124,
+      "name": "آسم و آلرژی",
+      "type": 1,
+      "slug": "allergist",
+      "parent_id": 36
+    },
+    {
+      "id": 125,
+      "name": "پزشک هسته ای",
+      "type": 0,
+      "slug": "nuclear-medicine"
+    }
+  ],
+  "top_specialities": [
+    {
+      "id": 49,
+      "name": "زنان و زایمان و نازایی",
+      "slug": "obstetrician-gynecologist"
+    },
+    {
+      "id": 36,
+      "name": "کودکان و نوزادان",
+      "slug": "pediatric"
+    },
+    {
+      "id": 46,
+      "name": "جراحی کلیه،مجاری ادراری و تناسلی (اورولوژی)",
+      "slug": "urologist"
+    },
+    {
+      "id": 88,
+      "name": "گوارش و کبد",
+      "slug": "gastroenterologist"
+    },
+    {
+      "id": 43,
+      "name": "مغز و اعصاب (نورولوژی)",
+      "slug": "neurologist"
+    },
+    {
+      "id": 44,
+      "name": "جراحی مغز و اعصاب",
+      "slug": "neurosurgeon"
+    },
+    {
+      "id": 79,
+      "name": "جراحی پلاستیک زیبایی و ترمیمی",
+      "slug": "plastic-and-reconstructive-surgury"
+    },
+    {
+      "id": 85,
+      "name": "ریه",
+      "slug": "i1"
+    },
+    {
+      "id": 12,
+      "name": "اعصاب و روان (روانپزشکی)",
+      "slug": "psychiatrist"
+    },
+    {
+      "id": 84,
+      "name": "روماتولوژی",
+      "slug": "rheumatologist"
+    },
+    {
+      "id": 35,
+      "name": "بیماریهای عفونی و گرمسیری",
+      "slug": "infectiologist"
+    },
+    {
+      "id": 83,
+      "name": "داخلی",
+      "slug": "internal"
+    },
+    {
+      "id": 52,
+      "name": "جراحی عمومی",
+      "slug": "general-surgeon"
+    },
+    {
+      "id": 29,
+      "name": "قلب و عروق",
+      "slug": "cardiologist"
+    },
+    {
+      "id": 76,
+      "name": "گوش حلق و بینی",
+      "slug": "otorhinolaryngologist"
+    },
+    {
+      "id": 15,
+      "name": "چشم پزشکی",
+      "slug": "ophthalmology"
+    },
+    {
+      "id": 14,
+      "name": "پوست، مو و زیبایی",
+      "slug": "cosmetic-dermatologist"
+    },
+    {
+      "id": 7,
+      "name": "ارتوپدی",
+      "slug": "orthopedist"
+    },
+    {
+      "id": 2,
+      "name": "آسم و آلرژی",
+      "slug": "allergist"
+    },
+    {
+      "id": 21,
+      "name": "دندانپزشکی",
+      "slug": "dentist"
+    },
+    {
+      "id": 13,
+      "name": " روانشناسی",
+      "slug": "psychologist"
+    },
+    {
+      "id": 63,
+      "name": "طب فیزیکی و توانبخشی",
+      "slug": "physiatrist"
+    }
+  ]
+}

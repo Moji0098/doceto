@@ -1,0 +1,340 @@
+{
+  "data": [
+    {
+      "_id": "5ec617ae52c2b212db799613",
+      "userId": "0470534c-444a-4c3b-8248-90469b90da71",
+      "doctorId": "ef57075e-44e6-4d97-954f-4fc1c4ad15ad",
+      "fullName": "عادل عطارزاده (مشاوره تلفنی)",
+      "avatar": "http://visitasan.ir/storage/image/dr-adel-attarzadeh/دکتر-عادل-عطارزاده-(مشاوره-تلفنی).jpeg",
+      "isFemale": true,
+      "city": {
+        "id": 1042,
+        "name": "شیراز",
+        "slug": "shiraz"
+      },
+      "specialities": [
+        {
+          "id": 19,
+          "name": "شبکیه",
+          "slug": "b4",
+          "type": {
+            "id": 5,
+            "name": "فوق تخصص"
+          }
+        },
+        {
+          "id": 15,
+          "name": "چشم پزشکی",
+          "slug": "ophthalmology",
+          "type": {
+            "id": 4,
+            "name": "متخصص"
+          }
+        }
+      ],
+      "medicalCode": "107935",
+      "slug": "dr-adel-attarzadeh",
+      "services": ["televisit", "chat"]
+    },
+    {
+      "_id": "5ec84844dcde1345e73e2d47",
+      "userId": "b3fe725e-3b2a-454b-ace1-00b70d4daa2a",
+      "doctorId": "36e657b9-5cef-46e9-8b19-c2c22ad4968e",
+      "fullName": "فرشته سالاری",
+      "avatar": null,
+      "isFemale": true,
+      "city": {
+        "id": 338,
+        "name": "تهران",
+        "slug": "tehran"
+      },
+      "specialityTitle": "",
+      "specialities": [
+        {
+          "id": 83,
+          "name": "داخلی",
+          "slug": "internal",
+          "type": {
+            "id": 4,
+            "name": "متخصص"
+          }
+        },
+        {
+          "id": 4,
+          "name": "آسم و آلرژی",
+          "slug": "allergist-sub",
+          "type": {
+            "id": 5,
+            "name": "فوق تخصص"
+          }
+        }
+      ],
+      "medicalCode": "119961",
+      "slug": "dr-freshte-salari",
+      "services": ["televisit"]
+    },
+    {
+      "_id": "5ec61a8d14689176d56794b7",
+      "userId": "91a05c14-81ca-42eb-bf50-137cfd6785a8",
+      "doctorId": "779bfa29-b8e5-45ed-bbbd-a813f9be1b57",
+      "fullName": "عبدالوهاب البرزی",
+      "avatar": "http://visitasan.ir/storage/image/dr-abdolvahhab-alborzi/دکتر-عبدالوهاب-البرزی.jpeg",
+      "isFemale": false,
+      "city": {
+        "id": 1042,
+        "name": "شیراز",
+        "slug": "shiraz"
+      },
+      "specialityTitle": "عفونی کودکان",
+      "specialities": [
+        {
+          "id": 36,
+          "name": "کودکان و نوزادان",
+          "slug": "pediatric",
+          "type": {
+            "id": 4,
+            "name": "متخصص"
+          }
+        },
+        {
+          "id": 38,
+          "name": "عفونی کودکان",
+          "slug": "c3",
+          "type": {
+            "id": 5,
+            "name": "فوق تخصص"
+          }
+        }
+      ],
+      "medicalCode": "12777",
+      "slug": "dr-abdolvahhab-alborzi",
+      "services": ["chat"]
+    },
+    {
+      "_id": "5ec617ae52c2b212db79961333",
+      "userId": "0470534c-444a-4c3b-8248-90469b90da714",
+      "doctorId": "ef57075e-44e6-4d97-954f-4fc1c4ad15ad343",
+      "fullName": "عادل عطارزاده (مشاوره تلفنی)",
+      "avatar": "http://visitasan.ir/storage/image/dr-adel-attarzadeh/دکتر-عادل-عطارزاده-(مشاوره-تلفنی).jpeg",
+      "isFemale": true,
+      "city": {
+        "id": 1042,
+        "name": "شیراز",
+        "slug": "shiraz"
+      },
+      "specialities": [
+        {
+          "id": 19,
+          "name": "شبکیه",
+          "slug": "b4",
+          "type": {
+            "id": 5,
+            "name": "فوق تخصص"
+          }
+        },
+        {
+          "id": 15,
+          "name": "چشم پزشکی",
+          "slug": "ophthalmology",
+          "type": {
+            "id": 4,
+            "name": "متخصص"
+          }
+        }
+      ],
+      "medicalCode": "107935",
+      "slug": "dr-adel-attarzadeh",
+      "services": ["televisit", "chat"]
+    },
+    {
+      "_id": "5ec84844dcde1345e73e2d4ss7",
+      "userId": "b3fe725e-3b2a-454b-ace1-00b70ddd4daa2a",
+      "doctorId": "36e657b9-5cef-46e9-8b19-c2c22affd4968e",
+      "fullName": "فرشته سالاری",
+      "avatar": null,
+      "isFemale": true,
+      "city": {
+        "id": 338,
+        "name": "تهران",
+        "slug": "tehran"
+      },
+      "specialityTitle": "",
+      "specialities": [
+        {
+          "id": 83,
+          "name": "داخلی",
+          "slug": "internal",
+          "type": {
+            "id": 4,
+            "name": "متخصص"
+          }
+        },
+        {
+          "id": 4,
+          "name": "آسم و آلرژی",
+          "slug": "allergist-sub",
+          "type": {
+            "id": 5,
+            "name": "فوق تخصص"
+          }
+        }
+      ],
+      "medicalCode": "119961",
+      "slug": "dr-freshte-salari",
+      "services": ["televisit"]
+    },
+    {
+      "_id": "5ec61a8d1468917s6d56794ssb7",
+      "userId": "91a05c14-81ca-42eb-bfff50-137cfd6785a8",
+      "doctorId": "779bfa29-b8e5-45ed-bbvvbd-a813f9be1b57",
+      "fullName": "عبدالوهاب البرزی",
+      "avatar": "http://visitasan.ir/storage/image/dr-abdolvahhab-alborzi/دکتر-عبدالوهاب-البرزی.jpeg",
+      "isFemale": false,
+      "city": {
+        "id": 1042,
+        "name": "شیراز",
+        "slug": "shiraz"
+      },
+      "specialityTitle": "عفونی کودکان",
+      "specialities": [
+        {
+          "id": 36,
+          "name": "کودکان و نوزادان",
+          "slug": "pediatric",
+          "type": {
+            "id": 4,
+            "name": "متخصص"
+          }
+        },
+        {
+          "id": 38,
+          "name": "عفونی کودکان",
+          "slug": "c3",
+          "type": {
+            "id": 5,
+            "name": "فوق تخصص"
+          }
+        }
+      ],
+      "medicalCode": "12777",
+      "slug": "dr-abdolvahhab-alborzi",
+      "services": ["televisit", "chat"]
+    },
+    {
+      "_id": "5ec617adde52c2b212db799613",
+      "userId": "0470534ffc-444a-4c3b-8248-90469b90da71",
+      "doctorId": "ef57075fge-44e6-4d97-954f-4fc1c4ad15ad",
+      "fullName": "عادل عطارزاده (مشاوره تلفنی)",
+      "avatar": "http://visitasan.ir/storage/image/dr-adel-attarzadeh/دکتر-عادل-عطارزاده-(مشاوره-تلفنی).jpeg",
+      "isFemale": true,
+      "city": {
+        "id": 1042,
+        "name": "شیراز",
+        "slug": "shiraz"
+      },
+      "specialities": [
+        {
+          "id": 19,
+          "name": "شبکیه",
+          "slug": "b4",
+          "type": {
+            "id": 5,
+            "name": "فوق تخصص"
+          }
+        },
+        {
+          "id": 15,
+          "name": "چشم پزشکی",
+          "slug": "ophthalmology",
+          "type": {
+            "id": 4,
+            "name": "متخصص"
+          }
+        }
+      ],
+      "medicalCode": "107935",
+      "slug": "dr-adel-attarzadeh",
+      "services": ["televisit", "chat"]
+    },
+    {
+      "_id": "5ec8sa4844dcde1345e73e2d47",
+      "userId": "b3faae725e-3b2a-454b-ace1-00b70d4daa2a",
+      "doctorId": "36eaa657b9-5cef-46e9-8b19-c2c22ad4968e",
+      "fullName": "فرشته سالاری",
+      "avatar": null,
+      "isFemale": true,
+      "city": {
+        "id": 338,
+        "name": "تهران",
+        "slug": "tehran"
+      },
+      "specialityTitle": "",
+      "specialities": [
+        {
+          "id": 83,
+          "name": "داخلی",
+          "slug": "internal",
+          "type": {
+            "id": 4,
+            "name": "متخصص"
+          }
+        },
+        {
+          "id": 4,
+          "name": "آسم و آلرژی",
+          "slug": "allergist-sub",
+          "type": {
+            "id": 5,
+            "name": "فوق تخصص"
+          }
+        }
+      ],
+      "medicalCode": "119961",
+      "slug": "dr-freshte-salari",
+      "services": ["televisit", "chat"]
+    },
+    {
+      "_id": "5echh61a8d14689176d56794b7",
+      "userId": "91ahh05c14-81ca-42eb-bf50-137cfd6785a8",
+      "doctorId": "779bfhha29-b8e5-45ed-bbbd-a813f9be1b57",
+      "fullName": "عبدالوهاب البرزی",
+      "avatar": "http://visitasan.ir/storage/image/dr-abdolvahhab-alborzi/دکتر-عبدالوهاب-البرزی.jpeg",
+      "isFemale": false,
+      "city": {
+        "id": 1042,
+        "name": "شیراز",
+        "slug": "shiraz"
+      },
+      "specialityTitle": "عفونی کودکان",
+      "specialities": [
+        {
+          "id": 36,
+          "name": "کودکان و نوزادان",
+          "slug": "pediatric",
+          "type": {
+            "id": 4,
+            "name": "متخصص"
+          }
+        },
+        {
+          "id": 38,
+          "name": "عفونی کودکان",
+          "slug": "c3",
+          "type": {
+            "id": 5,
+            "name": "فوق تخصص"
+          }
+        }
+      ],
+      "medicalCode": "12777",
+      "slug": "dr-abdolvahhab-alborzi",
+      "services": ["chat"]
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "pages": 1,
+    "recordsPerPage": 10,
+    "total": 9
+  }
+}
