@@ -6,6 +6,7 @@ import spec from "../data/specialities.json";
 import Doctors from "../components/Doctors";
 import right from "../assets/icons/right-dark.svg";
 import left from "../assets/icons/left-dark.svg";
+
 const data = docData["data"];
 const selectorData = spec["specialities"];
 
@@ -39,58 +40,37 @@ function Filter(props) {
   useEffect(() => {
     const { pathname, search } = props.location;
     if (pathname === "/search/speciality" && search) {
-      setFiltredData(data);
       setSearchValue(decodeURIComponent(search.replace("?keyword=", "")));
-      setFiltredData(data.filter((d) => d.fullName.includes(searchValue)));
+      setFiltredData(data.filter((one) => one.fullName.includes(searchValue)));
     } else if (pathname === "/search/speciality" && selectValue) {
-      setFiltredData(data);
-      setFiltredData(data.filter((d) => d.fullName.includes(selectValue)));
+      setFiltredData(data.filter((one) => one.fullName.includes(selectValue)));
     } else if (pathname === "/search/speciality" && !search) {
       setFiltredData(data);
     } else if (pathname !== "/search/speciality" && search) {
-      setFiltredData(data);
       setSearchValue(decodeURIComponent(search.replace("?keyword=", "")));
       setSelectValue(pathname.replace("/search/speciality/", ""));
       setShowValue(
         selectorData.filter(
-          (r) => pathname.replace("/search/speciality/", "") === r.slug
-        )[0]["name"]
-      );
-
-      setFiltredData(
-        data
-          .filter((d) => d.fullName.includes(searchValue))
-          .filter((d) =>
-            d.specialities.some((c) => [selectValue].includes(c.slug))
-          )
-      );
-    } else if ((pathname !== "/search/speciality" && search) || "") {
-      setFiltredData(data);
-      setSearchValue(decodeURIComponent(search.replace("?keyword=", "")));
-      setSelectValue(pathname.replace("/search/speciality/", ""));
-      setShowValue(
-        selectorData.filter(
-          (r) => pathname.replace("/search/speciality/", "") === r.slug
+          (one) => pathname.replace("/search/speciality/", "") === one.slug
         )[0]["name"]
       );
       setFiltredData(
         data
-          .filter((d) => d.fullName.includes(searchValue))
-          .filter((d) =>
-            d.specialities.some((c) => [selectValue].includes(c.slug))
+          .filter((one) => one.fullName.includes(searchValue))
+          .filter((two) =>
+            two.specialities.some((three) => [selectValue].includes(three.slug))
           )
       );
     } else if (pathname !== "/search/speciality" && !search) {
-      setFiltredData(data);
       setSelectValue(pathname.replace("/search/speciality/", ""));
       setShowValue(
         selectorData.filter(
-          (r) => pathname.replace("/search/speciality/", "") === r.slug
+          (one) => pathname.replace("/search/speciality/", "") === one.slug
         )[0]["name"]
       );
       setFiltredData(
-        data.filter((d) =>
-          d.specialities.some((c) => [selectValue].includes(c.slug))
+        data.filter((one) =>
+          one.specialities.some((two) => [selectValue].includes(two.slug))
         )
       );
     }
