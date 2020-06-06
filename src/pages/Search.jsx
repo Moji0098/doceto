@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import SelectOption from "../components/SelectOption";
 import docData from "../data/data.json";
 import searchIcon from "../assets/icons/search.svg";
@@ -21,7 +21,7 @@ function Filter(props) {
     setSelectValue(slug);
 
     props.history.replace({
-      pathname: "/search/speciality" + `/${slug}`,
+      pathname: `/search/speciality/${slug}`,
       search: searchValue === "" ? "" : `keyword=${searchValue}`,
     });
     setMenu((prev) => !prev);
@@ -32,13 +32,14 @@ function Filter(props) {
     let value = e.target.value;
     setSearchValue(value);
     props.history.replace({
-      pathname: selectValue ? "/search/speciality" + `/${selectValue}` : "",
+      pathname: selectValue ? `/search/speciality/${selectValue}` : "",
       search: value === "" ? "" : `keyword=${value}`,
     });
   };
 
   useEffect(() => {
     const { pathname, search } = props.location;
+
     if (pathname === "/search/speciality" && search) {
       setSearchValue(decodeURIComponent(search.replace("?keyword=", "")));
       setFiltredData(data.filter((one) => one.fullName.includes(searchValue)));
@@ -90,8 +91,14 @@ function Filter(props) {
     setShowValue("انتخاب کنید");
   };
 
+  const closeSelector = () => {
+    if (menu) {
+      setMenu(false);
+    }
+  };
+
   return (
-    <div className="filter">
+    <div className="filter" onClick={closeSelector}>
       <div className="banner">
         <div className="banner-child ">
           <div className="banner-title">مشاوره پزشکی</div>
