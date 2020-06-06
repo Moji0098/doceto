@@ -75,7 +75,7 @@ function Filter(props) {
         )
       );
     }
-  }, [searchValue, selectValue]);
+  }, [searchValue, selectValue, props.location]);
 
   const openSelector = () => {
     setMenu((prev) => !prev);
