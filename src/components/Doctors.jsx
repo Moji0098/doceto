@@ -1,7 +1,10 @@
 import React from "react";
+
 import left from "./../assets/icons/arrow-left.svg";
 import Tag from "./Tag";
 import { serviceText, servicesIcon } from "../utils/constant";
+
+//icons
 import telephone from "../assets/icons/telephone.svg";
 import comment from "../assets/icons/comment.svg";
 import check from "../assets/icons/check.svg";
